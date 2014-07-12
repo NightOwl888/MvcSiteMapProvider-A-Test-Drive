@@ -18,8 +18,6 @@ namespace Mvc4AndMvcSiteMapProvider
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
-
-            MvcSiteMapProvider.Web.Mvc.XmlSiteMapController.RegisterRoutes(routes);
         }
     }
 }
